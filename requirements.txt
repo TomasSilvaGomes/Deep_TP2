@@ -1,0 +1,18 @@
+# --- Processamento de Dados e Imagem ---
+numpy
+opencv-python
+Pillow
+matplotlib
+tqdm
+scikit-learn
+
+# --- Hugging Face & Generative AI ---
+# Necessários para o script de Deepfake/Stable Diffusion
+diffusers
+transformers
+accelerate
+safetensors
+
+# --- Utilitários ---
+# Útil se usares Jupyter Notebooks para testes rápidos
+ipykernel
