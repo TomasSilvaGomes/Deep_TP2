@@ -74,10 +74,7 @@ class DeepfakeGenerator:
                 safety_checker=None 
             )
             self.pipe.to(DEVICE)
-            
-            if DEVICE == "cuda":
-                self.pipe.enable_xformers_memory_efficient_attention()
-                
+                            
         except Exception as e:
             print(f"ERRO CRÍTICO ao carregar modelo: {e}")
             exit()

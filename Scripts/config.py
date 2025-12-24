@@ -11,7 +11,7 @@ PROJECT_ROOT = FILE_PATH.parent.parent
 
 # --- Estrutura de Diretorias ---
 DATA_DIR = PROJECT_ROOT / "data"
-RAW_DIR = DATA_DIR / "raw"             # Onde estão os originais (1024x1024)
+RAW_DIR = DATA_DIR / "originais"             # Onde estão os originais (1024x1024)
 FAKES_DIR = DATA_DIR / "fakes"         # Onde ficam os pares processados
 MODELS_DIR = PROJECT_ROOT / "save_models" # Pasta pedida para guardar os modelos
 
