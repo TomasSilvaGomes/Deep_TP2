@@ -14,7 +14,7 @@ Utilizamos uma **U-Net** treinada em regime **Self-Supervised** apenas com image
 
 O projeto está modularizado na pasta `Scripts/` para garantir reprodutibilidade e organização:
 
-* **`mian.py`**   
+* **`main.py`**   
   * Executa o fluxo completo: verifica/baixa o dataset, treina o modelo e gera os relatórios finais automaticamente.
 * **`download_imagens_adversario.py`**   
   * Script auxiliar que descarrega o dataset da Google Drive se este não existir localmente.
