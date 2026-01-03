@@ -14,7 +14,6 @@ from modelo import UNetColorizer
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
     page_title="Chroma Truth | Detetor de Deepfakes",
-    page_icon="🕵️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -176,7 +175,7 @@ st.sidebar.title("Chroma Truth")
 mode = st.sidebar.radio("Navegação", ["Detetor (Demo)", "Relatório de Avaliação", "Sobre"])
 
 if mode == "Detetor (Demo)":
-    st.title("🕵️ Detetive Cromático")
+    st.title(" Detetive Cromático")
     st.markdown("""
     Este sistema analisa a coerência física entre a **Luminância** (Luz) e a **Crominância** (Cor) de uma face.
     Deepfakes gerados por difusão podem falhar nesta correlação em condições complexas.

@@ -11,7 +11,7 @@ from config import MODELS_DIR, FAKES_DIR, DEVICE, HEATMAPS_DIR
 from modelo import UNetColorizer
 
 # --- CONFIGURAÇÕES ---
-TRAIN_VAL_OFFSET = 4200  # Imagens < 4200 foram usadas no treino"
+TRAIN_VAL_OFFSET = 4200  # Imagens < 4200 foram usadas no treino
 
 def load_image_pipeline(path):
     """
