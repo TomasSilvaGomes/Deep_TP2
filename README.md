@@ -13,6 +13,10 @@ Utilizamos uma **U-Net** treinada em regime **Self-Supervised** apenas com image
 ##  Estrutura do Projeto (Pipeline)
 
 O projeto está modularizado na pasta `Scripts/` para garantir reprodutibilidade e organização:
+<p align="center">
+  <img src="pipeline" alt="Pipeline Geral do Projeto" width="100%">
+</p>
+
 
 * **`main.py`**   
   * Executa o fluxo completo: verifica/baixa o dataset, treina o modelo e gera os relatórios finais automaticamente.
