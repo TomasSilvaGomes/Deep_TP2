@@ -33,7 +33,7 @@ O projeto está modularizado na pasta `Scripts/` para garantir reprodutibilidade
 
 ### 1. Instalação das Dependências
 
-Certifica-te de que tens o Python (3.9+) instalado. Instala as bibliotecas necessárias:
+Ter o Python (3.9+) instalado. Instalar as bibliotecas necessárias:
 
 ```bash
 pip install -r requirements.txt
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 
 ## 2. Reprodução Total (Treino + Avaliação)
-Para reproduzir todos os resultados do zero (download de dados, treino e geração de gráficos), corre apenas este comando na pasta raiz do projeto:
+Para reproduzir todos os resultados do zero (download de dados que estão numa drive, treino e geração de gráficos), correr apenas este comando na pasta raiz do projeto:
 
 ```Bash
 
